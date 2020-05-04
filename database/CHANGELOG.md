@@ -131,3 +131,11 @@
 #### New table `sku_order_items`
 
 #### New table `sku_transaction`
+
+## Version 20 (https://github.com/brave/brave-core/pull/5017)
+#### Table `unblinded_tokens`
+```diff
++ redeemed_at
++ redeem_id
++ redeem_type
+```
