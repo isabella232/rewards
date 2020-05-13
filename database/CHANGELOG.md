@@ -123,7 +123,6 @@
 
 #### New table `creds_batch`
 
-
 ## Version 19 (https://github.com/brave/brave-core/pull/4869)
 
 #### New table `sku_order`
@@ -145,3 +144,9 @@
 ```diff
 + CONSTRAINT contribution_info_publishers_unique UNIQUE (contribution_id, publisher_key)
 ```
+
+## Version 22 (https://github.com/brave/brave-core/pull/5417)
+
+#### New table `processed_publisher`
+
+#### New table `balance_report`
