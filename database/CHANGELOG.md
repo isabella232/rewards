@@ -139,3 +139,9 @@
 + redeem_id
 + redeem_type
 ```
+
+## Version 21 (https://github.com/brave/brave-core/pull/5464)
+#### Table `contribution_info_publishers`
+```diff
++ CONSTRAINT contribution_info_publishers_unique UNIQUE (contribution_id, publisher_key)
+```
